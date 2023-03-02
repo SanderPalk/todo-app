@@ -18,7 +18,7 @@ const TodoList = ({ taskList, theme, getTaskList, handleDelete }) => {
         }
     });
 
-    const itemCounter = filteredTaskList.filter((task) => task.status === 0)
+    const itemCounter = filteredTaskList.filter((task) => task.status === 0 || task.status === 1)
         .length;
 
     const handleFilterClick = (status) => {
