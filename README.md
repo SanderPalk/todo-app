@@ -33,3 +33,12 @@ After than you should see empty array on http://localhost:3001/
 Now the whole application should be working with all included functionallity (toggle theme, add/check/filter/delete tasks)
 
 If you don't see anything when you open http://localhost:3000/, head to the **front-end** section
+
+
+# Project pictures
+### Dark theme application
+![dark-theme](readmeMedia/dark-theme-picture.png/)
+### Light theme application
+![light-theme](readmeMedia/light-theme-picture.png/)
+### API
+![api](readmeMedia/api-picture.png/)
