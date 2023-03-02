@@ -1,5 +1,5 @@
 import './App.css';
-import {useEffect, useState} from "react";
+import { useState } from "react";
 import InputField from "./components/InputField";
 import TodoList from "./components/TodoList";
 import axios from "axios";
@@ -67,7 +67,7 @@ function App() {
                 <div className="header">
                     <h1>TODO</h1>
                     <a onClick={toggleDarkMode}>
-                        <img className={`toggle-button ${isDarkMode ? '' : 'toggle-button-light'}`}/>
+                        <img alt='' className={`toggle-button ${isDarkMode ? '' : 'toggle-button-light'}`}/>
                     </a>
                 </div>
                 <div className="input-container">

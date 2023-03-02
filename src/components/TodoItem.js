@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import { useState } from "react";
 import axios from "axios";
 
 const TodoItem = ({task, theme}) => {
@@ -17,7 +17,7 @@ const TodoItem = ({task, theme}) => {
         <div className={`todo-item-container ${theme ? '' : 'light-container'}`}>
             <div className="checkbox-container" onClick={handleCompleteCheck}>
                 <div className={`checkbox ${status === 1 ? 'checked' : ''}`}>
-                    {status === 1 ? <img className='icon-checked'/> : ''}
+                    {status === 1 ? <img alt='' className='icon-checked'/> : ''}
                 </div>
             </div>
             <div className={`todo-content-container`}>
